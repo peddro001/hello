@@ -1,0 +1,124 @@
+:root {
+    --main-bg: rgb(253, 134, 154);
+    --main-bg-dark: hsl(197, 97%, 46%);
+    --main-text: hsl(0, 0%, 0%);
+    --main-light-text: hsl(0, 0%, 100%);
+    --dev: 24px;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.words{
+    width: 80%;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: brown;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+
+}
+nav ul{
+    display: inline-flex;
+    gap: 1rem;
+    list-style: none;
+}
+:root{
+    --main-big-color: blue ;
+}
+nav a:hover{
+    color: blue;
+}
+#home{
+    height:100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-image: url('iskra-photography-7WLPM8DWB44-unsplash (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(0, 255, 255, 0.374);
+}
+.sidebar{
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    background-color: rgba(176, 153, 171, 0.883);
+
+}
+.blogs{
+    
+}
+.menu{
+    display: none;
+    font-style: 2rem;
+    cursor: pointer;
+    padding: 1rem;
+    transition: all 0.s ease;
+}
+.show{
+    display: flex;
+    animination
+}
+@media only screen and (max-width: 768px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .sidebar{
+        display: flex;
+    }
+    .memu{
+        display: block;
+    }
+    header{
+        background: none;
+    }
+
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
